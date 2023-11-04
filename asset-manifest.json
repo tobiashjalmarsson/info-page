@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tobiashjalmarsson.github.io/info-page/static/css/main.42928c44.css",
-    "main.js": "/tobiashjalmarsson.github.io/info-page/static/js/main.c1a5eb66.js",
-    "static/js/787.d19b828c.chunk.js": "/tobiashjalmarsson.github.io/info-page/static/js/787.d19b828c.chunk.js",
-    "static/media/cv_bild.jpeg": "/tobiashjalmarsson.github.io/info-page/static/media/cv_bild.85d18396ce7a62e6e950.jpeg",
-    "static/media/Tobias_Hjalmarsson_CV.pdf": "/tobiashjalmarsson.github.io/info-page/static/media/Tobias_Hjalmarsson_CV.c96cb813061f2252d1bf.pdf",
-    "static/media/logo.svg": "/tobiashjalmarsson.github.io/info-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/tobiashjalmarsson.github.io/info-page/index.html",
-    "main.42928c44.css.map": "/tobiashjalmarsson.github.io/info-page/static/css/main.42928c44.css.map",
-    "main.c1a5eb66.js.map": "/tobiashjalmarsson.github.io/info-page/static/js/main.c1a5eb66.js.map",
-    "787.d19b828c.chunk.js.map": "/tobiashjalmarsson.github.io/info-page/static/js/787.d19b828c.chunk.js.map"
+    "main.css": "/info-page/static/css/main.42928c44.css",
+    "main.js": "/info-page/static/js/main.a6b21c5f.js",
+    "static/js/787.d19b828c.chunk.js": "/info-page/static/js/787.d19b828c.chunk.js",
+    "static/media/cv_bild.jpeg": "/info-page/static/media/cv_bild.85d18396ce7a62e6e950.jpeg",
+    "static/media/Tobias_Hjalmarsson_CV.pdf": "/info-page/static/media/Tobias_Hjalmarsson_CV.c96cb813061f2252d1bf.pdf",
+    "static/media/logo.svg": "/info-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/info-page/index.html",
+    "main.42928c44.css.map": "/info-page/static/css/main.42928c44.css.map",
+    "main.a6b21c5f.js.map": "/info-page/static/js/main.a6b21c5f.js.map",
+    "787.d19b828c.chunk.js.map": "/info-page/static/js/787.d19b828c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42928c44.css",
-    "static/js/main.c1a5eb66.js"
+    "static/js/main.a6b21c5f.js"
   ]
 }
