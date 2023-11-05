@@ -1,23 +1,43 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './Header';
+import Home from './Home';
+import Footer from './Footer';
+import Contact from './Contact';
+import { useRef } from 'react';
+import Projects from './Projects';
+import Skills from './Skills';
+// https://tobiashjalmarsson.github.io/info-page
 function App() {
+  const contactRef = useRef(null);
+  const projectRef = useRef(null);
+  const homeRef = useRef(null);
+  const skillsRef = useRef(null);
+
+  const scrollContact = () => {
+    contactRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollProject = () => {
+    projectRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const scrollHome = () => {
+    homeRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const scrollSkills = () => {
+    skillsRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header skillsScroll={scrollSkills} homeScroll={scrollHome} contactScroll={scrollContact} projectScroll={scrollProject} />
+      <Home contactScroll={scrollContact} homeAnchor={homeRef} />
+      <Skills skillsAnchor={skillsRef} />
+      <Projects projectAnchor={projectRef} />
+      <Contact contactAnchor={contactRef} />
+      <Footer />
     </div>
   );
 }
